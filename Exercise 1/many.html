@@ -13,13 +13,18 @@
             timeDate: time,
             savings: false,
         };
-        let a1 = prompt("Введите обязательную статью расходов в этом месяце", ""),
-            a2 = prompt("Во сколько обойдется?", ""),
-            a3 = prompt("Введите обязательную статью,расходов в этом месяце", "");
-            a4 = prompt("Во сколько обойдется?", "");
-
-        appDate.expenses[a1] = a2;
-        appDate.expenses[a2] = a4;
+                
+  for (let i = 0; i < 5; i++) {
+    let a = prompt("Введите обязательную статью расходов в этом месяце", ""),
+        b = prompt("Во сколько обойдется?", ""),
+    
+    if ( (typeof(a)) === "string" && (typeof (a)) != null && (typeof(b)) != null 
+    && (typeof(a)) && a != "" && b != "" && a.length < 50) {
+      console.log("done");
+      appDate.expenses {a} = b;     
+    
+    }
+  }
 
         alert(appDate.budget / 30);
 
