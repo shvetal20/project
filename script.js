@@ -1,7 +1,7 @@
 'use strict';
 
 
-let money = +prompt ("Ваш бюджет на месяц?", ""),
+/*let money = +prompt ("Ваш бюджет на месяц?", ""),
     time = prompt ("Введите дату в формате YYYY-MM-DD", "");
     
 let appData = {
@@ -28,8 +28,7 @@ for (let i = 0; i < 2; i++) {
         i--;
     }
 
-};
-
+};*/
 
 
 // Используем цикл WHILE

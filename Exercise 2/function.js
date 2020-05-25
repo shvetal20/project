@@ -1,4 +1,6 @@
 
+
+    'use strict';
 let num = 20;
 function showFirstMessage(text) {
     alert(text);
@@ -15,8 +17,8 @@ let calc = function(a,b) {   //function Expresion  --- когда ф-ю прис
 //let calc = (a,b) => a+b;  //стрелочная ф-я
 
 console.log(calc(3,4));
-
 console.log(calc(8,4));
+
 
     function retVar() {   
         let num = 50;
@@ -42,3 +44,5 @@ console.log(calc(8,4));
     console.log(Math.round(twelve)); // округляет до целого значения
     console.log(parseInt(twelve)); //целые числа
     console.log(parseFloat(twelve)); // десятичные числа
+
+
